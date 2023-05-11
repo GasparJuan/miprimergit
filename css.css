@@ -1,0 +1,130 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+p {
+    padding-top: 10px;
+    padding-bottom: 60px;
+    padding-right: 35%;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 40px;
+}
+h2 {
+    text-align: center;
+    font-weight: 
+}
+
+h3 {
+}
+header {
+    width: 100%;
+    height: 15rem;
+    background-image: url(/imagenes/LOGO/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+body {
+    background-image: url(/imagenes/LOGO/Abstract\ Modern\ \ Stationery\ Paper.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.contenedor {
+   
+    background-color: white;
+    width: 90%; /*GRACIAS A ESTO EL TEXTO NO TOCA LAS ORILLAS CUANDO ESTAS EN UN CELU */
+    margin: 0 auto;
+}
+
+.grid {
+        margin: 10em auto 10em auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 50px;
+    }
+.producto--foto {
+    padding-left: 20%;
+}
+
+img {
+    width: 100%;
+    border:solid;
+    border-color: blueviolet;
+    border-width: 30rem;
+    padding-top: 5rem;
+}
+
+.producto--descripcion {
+    font-size: 1.3rem;
+}
+
+
+input { 
+        padding-top: 8rem;
+        font-size: 32px;
+        border-width: 1px;
+        border-color: #CCCCCC;
+        background-color: #FFFFFF;
+        color: #000000;
+        border-style: solid;
+        border-radius: 0px;
+        box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+        text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+   }
+    .css-input:focus {
+        outline:none;
+   }
+
+.css-input:focus { outline:none; } 
+
+.boton {
+    margin-top: 30px;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	padding:15px 57px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.input-apellido  {
+    padding: 12px;
+    font-size: 25px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 0px;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+.css-input:focus {
+    outline:none;
+}
+
+
+.pie {
+    text-align: center;
+    width: 100%;
+    height: 8rem;
+    background-color: #F6F6F6;
+    padding-bottom: 12rem;
+}
+
+.final-form {
+    text-align: center;
+}
